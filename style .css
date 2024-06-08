@@ -6,6 +6,7 @@ body{
     align-items: center;
     height: 100vh;
     color: black;
+    border: none;
 }
 
 form{
@@ -19,7 +20,7 @@ form{
 
 input{
     padding: 5px 5px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: gainsboro;
     border: none;
 
@@ -32,10 +33,17 @@ font-family: Arial, Helvetica, sans-serif;
 
 button{
     background-color: orangered;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     font-size: 13px;
     margin-bottom: 18px;
+    padding-bottom: 6px ;
+    padding-top: 6px;
 }
+
+.done{
+    padding-top: 8px;
+}
+
 
  
